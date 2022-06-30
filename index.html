@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Name : Md. Jiyauddin</h2>
+    <h2>Email : jiyauddinmd485@gmail</h2>
+    <h2>Mob no.: 8210324624</h2>
+    <h2>Title : Trainee in Find Academy.</h2>
+    <h2>Photo : </h2>
+    <img src="img.jpeg" alt="my_pic" width="123">
+    
+    <div style="border: 5px black dotted; margin: 20px 10px; padding: 10px;">
+    <table class="table">
+        <h2><u> Table for my five favorite sports person.</u></h2>
+        <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Profession</th>
+            <th scope="col">Interesting fact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Ms Dhoni</th>
+            <td>40</td>
+            <td>Cricket</td>
+            <td>During his early years of international cricket, he had long hair</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Virat Kohli</th>
+            <td>33</td>
+            <td>Cricket</td>
+            <td>Virat Kohli is the fastest Indian cricketer to reach 1000, 4000, 5000, 6000, 7000, 8000, 9000, 10,000
+                ODI runs.</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Rafael Nadal</th>
+            <td>36</td>
+            <td>Tennis</td>
+            <td>Though he is from Mallorca, Real Madrid is his favourite football club</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Cristiano Ronaldo</th>
+            <td>37</td>
+            <td>Football</td>
+            <td>Cristiano Ronaldo has scored 807 career goals, making him the highest ever goalscorer in the history of men's soccer.</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Lionel Messi</th>
+            <td>35</td>
+            <td>Football</td>
+            <td>His full name is Luis Lionel Andres Messi.</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+
+<div style="border: 5px red dotted; margin: 20px 10px; padding: 10px;">
+    <h2><u> Enter Guest Lectures Details </u></h2>
+    <form method="HTTP VERB" action="send data">
+        <div class="form_element">
+            <label for="name"><b>Name :</b></label>
+            <input type="text" name="name" id="name" value="Enter the name">
+        </div><br>
+        <div class="form_element">
+            <label for="email"><b>Email :</b></label>
+            <input type="text" name="email" id="email"  value="Enter the email">
+        </div><br>
+        <div class="form_element">
+            <label for="number"><b>Mob No. :</b></label>
+            <input type="number" name="number" id="number" value="Enter the mob no.">
+        </div><br>
+        <div class="form_element">
+            <p><b> What is your gender :</b></p>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </div><br>
+        <div class="form_element">
+            <label for="subject"><b>Subject what you want to talk :</b></label><br>
+            <textarea name="subject" id="subject"  rows="4" cols="50"></textarea>
+        </div>
+        
+        <div class="form_element">
+            <p><b> Select Categories up to five : </b></p>
+            <input type="checkbox" name="Blockhain" id="Blockhain">
+            <label for="Blockhain">Blockhain</label><br>
+            <input type="checkbox" name="Android" id="Android">
+            <label for="Android">Android</label><br>
+            <input type="checkbox" name="Career" id="Career">
+            <label for="Career">Careers</label><br>
+            <input type="checkbox" name="Devlopment" id="Devlopment">
+            <label for="Devlopment">Web Devlopment</label><br>
+            <input type="checkbox" name="ML" id="ML">
+            <label for="ML">Machine Learning</label><br>
+            <input type="checkbox" name="Data Science" id="Data Science">
+            <label for="Data Science">Data Science</label><br>
+            <input type="checkbox" name="Gaming" id="Gaming">
+            <label for="Gaming">Gaming</label><br>
+            <input type="checkbox" name="music" id="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" name="Technology" id="Technology">
+            <label for="Technology">Technology</label><br>
+            <input type="checkbox" name="Artificial" id="Artificial">
+            <label for="Artificial">Artificial Intelligence</label><br>
+
+        </div>
+
+        <div class="form_element">
+            
+            <br><label for="Time Slot"><b>Select suitable slot times : </b> </label>
+            <select name="time_slot" id="time_slot">
+                <option value="time1">09 - 11 am</option>
+                <option value="time2">12 - 02 pm</option>
+                <option value="time3">04 - 06 pm</option>
+                <option value="time4">07 - 09 pm</option>
+            </select>
+        </div>
+        <div>
+        <p><input type="submit" value="Submit"></p>
+        </div>
+    </form>
+</div>
+  <footer>
+    <div class="form_element">
+        <p><b><u> Social Media Links:</u></b></p>
+        <a href="https://www.facebook.com/" target = "_blank"><img src="fece.ico" alt="facebook" width="20"> Facebook</a><br>
+        <a href="https://www.instagram.com//" target = "_blank"><img src="insta.ico" alt="instagram" width="20"> Instagram</a><br>
+        <a href="https://www.linkedin.com/" target = "_blank"><img src="link.ico" alt="Linkdin" width="20"> Linkdin</a><br>
+        <a href="https://twitter.com/i/flow/login" target = "_blank"><img src="twi.ico" alt="twitter" width="20"> Twitter</a><br>
+    </div>
+  </footer>
+</body>
+
+</html>
